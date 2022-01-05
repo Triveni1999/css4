@@ -1,0 +1,150 @@
+.first,
+.third{
+    text-decoration: underline;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        blue,
+        red,
+        blue
+    );
+    
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 7px;
+}
+*{
+    margin: 0;
+}
+.second{
+    padding: 0px 200px 0px 200px;
+    background-color: cornflowerblue;
+    width: 40%;
+    border-radius: 5px;
+    border: 3px solid red;
+    margin-top: 20px;
+}
+.grid-container{
+    height: 250px;
+    background-color: springgreen;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.grid-item{
+    background-color: palevioletred;
+    border: 2px solid black;
+    text-align: center;
+    width: 350px;
+    height: 110px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+.item4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.third{
+    margin-top: 20px;
+    background-image: linear-gradient(
+        to right,
+        orangered,
+        green,
+        orangered
+    );
+    font-size: 1.5rem;
+    height: 1.5rem;
+}
+.flex-container{
+    display: flex;
+    height: 250px;
+    background-image: radial-gradient(
+        blue,
+        green
+    );
+    margin-top: 20px;
+    border: 2px solid green;
+    justify-content: space-around;
+}
+.flex-item{
+    background-color: yellow;
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: orangered;
+    margin-top: 70px;
+    border-radius: 2px;
+}
+.grid-container2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    border: solid 0px;
+}
+.div1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.div1,
+.div7{
+    font-size: 1.5rem;
+    height: 2.5rem;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.div2,
+.div3,
+.div4{
+    background-color: cornflowerblue;
+    border: 2px solid 0PX;
+    text-align: center;
+    width: 380px;
+    height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.div3{
+    background-color: mediumseagreen;
+    font-size: 1.8rem;
+}
+.div4{
+    background-color: lightcoral;
+    font-size: 1.6rem;
+}
+.div5{
+    background-color: cyan;
+    font-size: 1.8rem;
+    width: 1155px;
+    height: 140px;
+    color: white;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.div6{
+    color: white;
+    background-color: black;
+    height: 250px;
+    width: 150px;
+    text-align: start;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.div7{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: crimson;
+}
